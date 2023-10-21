@@ -1,0 +1,15 @@
+/*Chapter 15 Strings Exercise [C](a) Page 272*/
+
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+  printf("Enter String.\n");
+  char str1[10],str2[10],str3[10],str4[10];
+  scanf("%s%s%s%s",&str1,&str2,&str3,&str4);
+  printf("%s\n",str1);
+  printf("%s\n",str2);
+  printf("%s\n",str3);
+  printf("%s\n",str4);
+  return 0;
+}
